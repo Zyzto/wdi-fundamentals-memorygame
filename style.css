@@ -79,7 +79,7 @@ a:hover {
     text-shadow: 0 0 px white;
 }
 
-footer{
+footer {
     text-transform: uppercase;
     padding: 20px;
     background-color: #0d2c40;
@@ -89,22 +89,41 @@ footer{
     font-weight: 500;
     font-family: Raleway;
 }
-.copyright{
+
+.copyright {
     float: left;
 }
-.message{
+
+.message {
     float: right;
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
 }
 
-.name{
+.name {
     color: #f15b31;
+}
+
+.centerMessage {
+    /* text-align: center; */
+    font-size: 90px;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100px;
+    margin: auto;
+    color: Black;
+    opacity: 70%;
 }
